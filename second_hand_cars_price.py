@@ -48,7 +48,7 @@ engine = col1.slider('Power',500, 5000, 100)
 
 seller = col1.selectbox('Seller Type',['Dealer','Individual','Trustmark Dealer'])
 
-transmission = col2.selectbox('Transmission type', ['Manual','Transmission'])
+transmission = col2.selectbox('Transmission type', ['Manual','Automatic'])
 
 seats = col2.selectbox('Seats', [2,3,4,5,6,7,8])
 
